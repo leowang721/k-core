@@ -1,0 +1,16 @@
+{
+    "name": "k-core",
+    "version": "0.0.1-alpha.1",
+    "author": {
+      "name": "Leo Wang",
+      "email": "leowang721@gmail.com",
+      "url": "http://leowang721.github.io"
+    },
+    "contributors": [],
+    "dependencies": {
+    },
+    "main": "index",
+    "description": "k-core, basic libs & dependencies.",
+    "homepage": "https://github.com/leowang721/k-core",
+    "repository": "git://github.com/leowang721/k-core"
+}
