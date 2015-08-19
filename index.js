@@ -5,7 +5,10 @@
  */
 
 var main = {
-    version: '0.0.1-alpha.1'
+    version: '0.0.1-alpha.2',
+    LifeStage: require('./lib/LifeStage'),
+    errorHandler: require('./lib/errorHandler'),
+    eventBus: require('./lib/eventBus')
 };
 
 module.exports = main;
