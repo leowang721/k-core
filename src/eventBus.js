@@ -4,7 +4,7 @@
  * @author Leo Wang(leowang721@gmail.com)
  */
 
-import EventTarget from 'mini-events/EventTarget';
+import EventTarget from 'mini-event/EventTarget';
 
 class EventBus extends EventTarget {
     constructor(...props) {

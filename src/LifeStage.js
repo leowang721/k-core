@@ -3,7 +3,7 @@
  * @author Leo Wang(wangkemiao@baidu.com)
  */
 
-import EventTarget from 'mini-events/EventTarget';
+import EventTarget from 'mini-event/EventTarget';
 
 /**
  * DEFAULT_STAGES

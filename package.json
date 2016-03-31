@@ -9,7 +9,7 @@
     },
     "contributors": [],
     "dependencies": {
-      "mini-events": "^1.0.2",
+      "mini-event": "^1.0.2",
       "lodash": "^4.6.1",
       "promise": "^7.1.1"
     },

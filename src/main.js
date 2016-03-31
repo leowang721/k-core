@@ -5,7 +5,7 @@
  */
 
 import Promise from 'promise';
-import EventTarget from 'mini-events/EventTarget';
+import EventTarget from 'mini-event/EventTarget';
 
 import LifeStage from './LifeStage';
 import eventBus from './eventBus';
