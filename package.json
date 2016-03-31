@@ -11,7 +11,7 @@
     "dependencies": {
       "mini-event": "^1.0.2",
       "lodash": "^4.6.1",
-      "promise": "^7.1.1"
+      "promise": ">=1.0.2"
     },
     "main": "src/main",
     "description": "k-core, basic libs & dependencies using es6 grammar & syntax.",
