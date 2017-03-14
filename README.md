@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/leowang721/k-core.svg?branch=master)](https://travis-ci.org/leowang721/k-core)
 [![Coverage Status](https://coveralls.io/repos/github/leowang721/k-core/badge.svg?branch=master)](https://coveralls.io/github/leowang721/k-core?branch=master)
 
-If in pure Node.js, then version > 7.5.0 is required.
+babel is required now, 'cause using import & export.
 
-Otherwise you can use babel.
+~~If in pure Node.js, then version >= 7.6.0 is required.~~
 
 A simple lib for k-* to use
 
