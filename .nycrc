@@ -1,0 +1,9 @@
+{
+  "reporter"   : ["text", "text-summary", "lcov"],
+  "include"    : ["lib/*.js"],
+  "require"    : ["babel-register", "babel-polyfill"],
+  "sourceMap"  : false,
+  "instrument" : false,
+  "all"        : true,
+  "report-dir"  : "./test/coverage"
+}
