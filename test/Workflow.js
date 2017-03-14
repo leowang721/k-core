@@ -1,14 +1,14 @@
 'use strict';
 
-import Workflow from '../lib/Workflow';
-import {expect} from 'chai';
+let Workflow = require('../lib/Workflow');
+let expect = require('chai').expect;
 
 describe("Workflow TESTS", () => {
     it('should return correct APIs', () => {
         let worker = new Workflow();
 
         expect(worker.use).to.be.a('function');
-        expect(worker.work).to.be.a('function');
+        expect(typeof worker.work).to.be.equal('function');  // 实际上是个async function
         expect(worker.middlewareCount).to.be.a('number');
     });
 

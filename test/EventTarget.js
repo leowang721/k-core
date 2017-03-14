@@ -1,8 +1,8 @@
 'use strict';
 
-import EventTarget from '../lib/EventTarget';
-import EventEmitter from 'eventemitter3';
-import {expect} from 'chai';
+let EventTarget = require('../lib/EventTarget');
+let EventEmitter = require('eventemitter3');
+let expect = require('chai').expect;
 
 describe("EventTarget TESTS", () => {
     it('should be extended from EventEmitter', () => {

@@ -1,8 +1,8 @@
 'use strict';
 
-import Promise from '../lib/Promise';
-import Bluebird from 'bluebird';
-import {expect} from 'chai';
+let Promise = require('../lib/Promise');
+let Bluebird = require('bluebird');
+let expect = require('chai').expect;
 
 describe("Promise TESTS", () => {
     it('should be Bluebird', () => {

@@ -1,11 +1,11 @@
 'use strict';
 
-import main from '../lib/main';
-import EventTarget from '../lib/EventTarget';
-import Promise from '../lib/Promise';
-import util from '../lib/util';
-import Workflow from '../lib/Workflow';
-import {expect} from 'chai';
+let main = require('../lib/main');
+let EventTarget = require('../lib/EventTarget');
+let Promise = require('../lib/Promise');
+let util = require('../lib/util');
+let Workflow = require('../lib/Workflow');
+let expect = require('chai').expect;
 
 describe("main TESTS", () => {
     it('should return correct props', () => {

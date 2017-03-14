@@ -1,7 +1,7 @@
 'use strict';
 
-import util from '../lib/util';
-import {expect} from 'chai';
+let util = require('../lib/util');
+let expect = require('chai').expect;
 
 describe("util TESTS", () => {
     it('should return correct APIs', () => {
