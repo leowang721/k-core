@@ -1,7 +1,7 @@
 'use strict';
 
-let Workflow = require('../lib/Workflow');
-var expect = require('chai').expect;
+import Workflow from '../lib/Workflow';
+import {expect} from 'chai';
 
 describe("Workflow TESTS", () => {
     it('should return correct APIs', () => {
