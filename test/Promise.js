@@ -1,6 +1,6 @@
 'use strict';
 
-let Promise = require('../lib/Promise');
+let Promise = require('../Promise');
 let Bluebird = require('bluebird');
 let expect = require('chai').expect;
 

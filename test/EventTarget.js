@@ -1,6 +1,6 @@
 'use strict';
 
-let EventTarget = require('../lib/EventTarget');
+let EventTarget = require('../EventTarget');
 let EventEmitter = require('eventemitter3');
 let expect = require('chai').expect;
 

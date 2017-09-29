@@ -1,6 +1,6 @@
 'use strict';
 
-let Workflow = require('../lib/Workflow');
+let Workflow = require('../Workflow');
 let expect = require('chai').expect;
 
 describe("Workflow TESTS", () => {

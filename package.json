@@ -1,14 +1,13 @@
 {
   "name": "k-core",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "author": {
     "name": "Leo Wang",
     "email": "leowang721@gmail.com",
     "url": "http://leowang721.github.io"
   },
-  "main": "lib/main",
-  "files": ["lib"],
+  "main": "index",
   "description": "A simple support lib for k-* to use",
   "homepage": "https://github.com/leowang721/k-core",
   "repository": "git://github.com/leowang721/k-core",

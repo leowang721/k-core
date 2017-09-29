@@ -1,6 +1,6 @@
 'use strict';
 
-let util = require('../lib/util');
+let util = require('../util');
 let expect = require('chai').expect;
 
 describe("util TESTS", () => {

@@ -1,10 +1,10 @@
 'use strict';
 
-let main = require('../lib/main');
-let EventTarget = require('../lib/EventTarget');
-let Promise = require('../lib/Promise');
-let util = require('../lib/util');
-let Workflow = require('../lib/Workflow');
+let main = require('../main');
+let EventTarget = require('../EventTarget');
+let Promise = require('../Promise');
+let util = require('../util');
+let Workflow = require('../Workflow');
 let expect = require('chai').expect;
 
 describe("main TESTS", () => {
